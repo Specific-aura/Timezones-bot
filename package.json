@@ -1,0 +1,19 @@
+{
+  "name": "discord-timezone-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot for managing timezones and languages",
+  "main": "bot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.14.1",
+    "sqlite3": "^5.1.6",
+    "moment-timezone": "^0.5.43",
+    "dotenv": "^16.3.1"
+  },
+  "keywords": ["discord", "bot", "timezone", "language"],
+  "author": "Your Name",
+  "license": "MIT"
+}
